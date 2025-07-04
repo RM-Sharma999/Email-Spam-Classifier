@@ -6,11 +6,13 @@ import time
 import streamlit.components.v1 as components
 
 # Load the model and threshold
-file_path = os.path.join(os.path.dirname(__file__), 'voting_pipeline_with_threshold.pkl')
+@st.cache_resource
+def load_model():
+    file_path = os.path.join(os.path.dirname(__file__), 'voting_pipeline_with_threshold.pkl')
+    with open(file_path, 'rb') as f:
+        return pickle.load(f)
 
-with open(file_path, 'rb') as f:
-    saved = pickle.load(f)
-
+saved = load_model()
 voting_pipeline = saved["pipeline"]
 threshold = saved["threshold"]
 
