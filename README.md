@@ -1,7 +1,7 @@
 # 📧 Email Spam Classifier
 
 ## 📝 Description  
-A robust machine learning model that classifies email messages as spam or not spam (ham). The project combines classic text preprocessing, model evaluation, and powerful ensemble learning methods to create a high-precision, deployable spam detector.
+This project focuses on classifying email messages as either spam or ham (non-spam) using classical machine learning models, ensemble methods, and natural language processing techniques. The goal is to develop a high-precision email spam filter that is reliable and practical for real-world deployment.
 
 ---
 
