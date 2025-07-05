@@ -1,18 +1,18 @@
-# 📧 Email Spam Classifier
+# Email Spam Classifier
 
-## 📝 Description  
+## Description  
 This project focuses on classifying email messages as either spam or ham (non-spam) using classical machine learning models, ensemble methods, and natural language processing techniques. The goal is to develop a high-precision email spam filter that is reliable and practical for real-world deployment.
 
 ---
 
-## 🎯 Objective  
-To build a simple yet effective email spam classifier with a strong focus on minimizing false positives using text data and ensemble models, ideal for real-world use like inbox protection.
+## Objective  
+To build a reliable email spam classifier that accurately detects spam messages using machine learning and text preprocessing techniques, with a strong focus on high precision.
 
 ---
 
-## 📚 Dataset Overview  
+## Dataset Overview  
 - **Source**: TREC 2007 Email Spam Corpus via [RiverML](https://riverml.xyz/latest/api/datasets/trec07p/)
-- **Format**: Converted to CSV after parsing emails using the `river` library  
+- **Format**: Converted to CSV after parsing emails using the `river` library
 - **Columns Used**:  
   - `subject`  
   - `body`  
@@ -21,9 +21,9 @@ To build a simple yet effective email spam classifier with a strong focus on min
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)  
+## Exploratory Data Analysis (EDA)
 
-### 🔸 Distribution of Characters, Words, and Sentences by Class  
+### Distribution of Characters, Words, and Sentences by Class  
 > 📊 Includes 3 subplots comparing char, word, and sentence counts in spam vs ham emails.
 
 ### 🔸 WordClouds  
