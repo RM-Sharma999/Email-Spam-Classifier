@@ -1,6 +1,5 @@
 # Email Spam Classifier
 
-## Description  
 This project focuses on classifying email messages as either spam or ham (non-spam) using classical machine learning models, ensemble methods, and natural language processing techniques. The goal is to develop a high-precision email spam filter that is reliable and practical for real-world deployment.
 
 ---
