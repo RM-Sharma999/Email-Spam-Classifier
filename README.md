@@ -11,6 +11,7 @@ To build a reliable email spam classifier that accurately detects spam messages 
 ---
 
 ## Dataset Overview  
+The dataset was sourced from the Riverml platform. It contains labeled text messages categorized as either spam or ham (non-spam).
 - **Source**: TREC 2007 Email Spam Corpus via [RiverML](https://riverml.xyz/latest/api/datasets/trec07p/)
 - **Format**: Converted to CSV after parsing emails using the `river` library
 - **Columns Used**:  
