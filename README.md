@@ -10,14 +10,10 @@ To build a reliable email spam classifier that accurately detects spam messages 
 
 ---
 
-## Dataset Overview  
-- **Source**: TREC 2007 Email Spam Corpus via [RiverML](https://riverml.xyz/latest/api/datasets/trec07p/)
-- **Format**: Converted to CSV after parsing emails using the `river` library
-- **Columns Used**:  
-  `subject`
-  `body`  
-  `label` (`Spam` or `Ham`)  
-- A combination of subject + body was used as final input.
+## Dataset Overview 
+The dataset, obtained from the [RiverML](https://riverml.xyz/latest/api/datasets/trec07p/) repository, contains over 75,000 labeled text messages classified as either ham or spam. Although there is a slight class imbalance—approximately 61% ham and 39% spam—the distribution remains well within acceptable limits.
+
+Understanding this distribution is essential for evaluating real-world model performance. Therefore, confusion matrices and precision-based metrics are prioritized to ensure reliable and effective spam detection.
 
 ---
 
