@@ -14,7 +14,7 @@ To build a reliable email spam classifier that accurately detects spam messages 
 - **Source**: TREC 2007 Email Spam Corpus via [RiverML](https://riverml.xyz/latest/api/datasets/trec07p/)
 - **Format**: Converted to CSV after parsing emails using the `river` library
 - **Columns Used**:  
-  - `subject`  
+  - subject  
   - `body`  
   - `label` (`Spam` or `Ham`)  
 - A combination of subject + body was used as final input.
