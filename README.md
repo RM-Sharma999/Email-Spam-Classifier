@@ -10,7 +10,7 @@ To build a reliable email spam classifier that accurately detects spam emails us
 ---
 
 ## Dataset Overview 
-The dataset, obtained from the [RiverML](https://riverml.xyz/latest/api/datasets/trec07p/) repository, contains over 75,000 labeled text messages classified as either ham or spam. Although there is a slight class imbalance—approximately 61% ham and 39% spam—the distribution remains well within acceptable limits.
+The dataset, obtained from the [RiverML](https://riverml.xyz/0.19.0/api/datasets/TREC07/) repository, contains over 75,000 labeled emails classified as either ham or spam. Although there is a slight class imbalance—approximately 61% ham and 39% spam—the distribution remains well within acceptable limits.
 
 Understanding this distribution is essential for evaluating real-world model performance. Therefore, confusion matrices and precision-based metrics are prioritized to ensure reliable and effective spam detection.
 
@@ -21,7 +21,7 @@ Understanding this distribution is essential for evaluating real-world model per
 ## Exploratory Data Analysis (EDA)
 
 ### Distribution of Characters, Words, and Sentences by Class  
-> Log-scaled distributions show that spam messages tend to be shorter in terms of words, characters, and sentence count, but with noticeable variance.
+> Log-scaled distributions show us that spam emails tend to be shorter in terms of words, characters, and sentences by count, but with noticeable variance.
 
 ![](https://i.ibb.co/N230NJ0t/download.png)
 
@@ -48,6 +48,7 @@ These insights help illustrate the contrasting vocabulary used in each email typ
 
 ![](https://i.ibb.co/q3gkT4Lc/download-3.png)
 ![](https://i.ibb.co/bMZW7fqW/download-4.png)
+
 ---
 
 ## Text Preprocessing  
@@ -116,7 +117,7 @@ By fine-tuning the probability threshold, the **voting classifier** was optimize
 ## Technologies Used 
 
 - **Programming Language:** Python  
-- **NLP Tools:** `NLTK`, `re`
+- **NLP Tools:** `NLTK`, `Regex`
 - **Visualization:** `Matplotlib`, `Seaborn`, `Wordcloud`  
 - **Machine Learning:** `Scikit-learn`, `Xgboost`  
 - **Web Interface:** `Streamlit`  
