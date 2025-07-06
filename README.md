@@ -116,7 +116,7 @@ By fine-tuning the probability threshold, the **voting classifier** was optimize
 
 ## Technologies Used 
 
-- **Programming Language:** Python  
+- **Programming Language:** `Python`  
 - **NLP Tools:** `NLTK`, `Regex`
 - **Visualization:** `Matplotlib`, `Seaborn`, `Wordcloud`  
 - **Machine Learning:** `Scikit-learn`, `Xgboost`  
