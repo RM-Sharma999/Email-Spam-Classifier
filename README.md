@@ -14,6 +14,8 @@ The dataset, obtained from the [RiverML](https://riverml.xyz/latest/api/datasets
 
 Understanding this distribution is essential for evaluating real-world model performance. Therefore, confusion matrices and precision-based metrics are prioritized to ensure reliable and effective spam detection.
 
+![](https://ibb.co/rKGfjFjT)
+
 ---
 
 ## Exploratory Data Analysis (EDA)
