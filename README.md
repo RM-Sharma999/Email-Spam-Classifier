@@ -21,7 +21,9 @@ Understanding this distribution is essential for evaluating real-world model per
 ## Exploratory Data Analysis (EDA)
 
 ### Distribution of Characters, Words, and Sentences by Class  
-> 📊 Includes 3 subplots comparing char, word, and sentence counts in spam vs ham emails.
+> Log-scaled distributions show that spam messages tend to be shorter in terms of words, characters, and sentence count, but with noticeable variance.
+
+![](https://i.ibb.co/N230NJ0t/download.png)
 
 ### 🔸 WordClouds  
 > ☁️ Separate WordClouds for spam and ham to highlight commonly used terms.
