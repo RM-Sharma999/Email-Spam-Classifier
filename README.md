@@ -134,4 +134,8 @@ The final model was deployed using **Streamlit** to create an intuitive web-base
 
 ## Key Takeaways
 
+- **Random Forest and Extra Trees** classifiers showed outstanding standalone performance, achieving approximately **99% accuracy**, along with high precision and recall.
+- The **Voting Classifier** delivered the **best results** with **99% accuracy, precision, and recall**, making it the most reliable choice for this task.  
+- **Threshold tuning** significantly improved spam detection, reaching **96.3% recall**, **99.9% precision**, and leaving **only 8 false positives**.  
+- Using **Streamlit** and **Render** simplified deployment and made the model usable in real-world applications.
 
