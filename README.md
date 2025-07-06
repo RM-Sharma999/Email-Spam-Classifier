@@ -46,7 +46,8 @@ These visualizations provide a quick and intuitive understanding of the distinct
 
 These insights help illustrate the contrasting vocabulary used in each email type, which is valuable for feature engineering and model interpretation.
 
-![](https://i.ibb.co/q3gkT4Lc/download-3.png)          ![](https://i.ibb.co/bMZW7fqW/download-4.png)
+![](https://i.ibb.co/q3gkT4Lc/download-3.png)
+![](https://i.ibb.co/bMZW7fqW/download-4.png)
 ---
 
 ## 🧹 Text Preprocessing  
