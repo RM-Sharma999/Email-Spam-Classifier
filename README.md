@@ -99,45 +99,39 @@ This ensemble combined predictions from:
 - SVC (sigmoid kernel)  
 - Logistic Regression  
 
-The final decision was made by averaging the predicted probabilities. This method improved generalization and precision, achieving ~98% accuracy.
+The final prediction was made by averaging the predicted probabilities across models, enhancing generalization and stability. This ensemble approach achieved approximately **99% accuracy**, **precision**, and **recall**, indicating highly reliable performance.
+
+![](https://i.ibb.co/FLhVHnQr/download-6.png)
 
 ---
 
-## 🎯 Threshold Tuning (Precision Focused)  
+## Threshold Tuning (Precision Focused)  
 
-Rather than using the default 0.5 threshold, predicted spam probabilities were generated using `predict_proba()`.  
-Then, thresholds were adjusted to **maximize precision** (i.e., fewer false positives).
+By fine-tuning the probability threshold, the **voting classifier** was optimized to reduce false positives while maintaining strong recall. This trade-off is essential in spam detection, where incorrectly classifying legitimate (ham) emails as spam must be avoided.
 
-> ✔️ Final threshold: **0.80**  
-> 🎯 Result:
-- Precision: 0.999  
-- Recall: 0.962  
-- False Positives: only 8  
-
-> 📊 Includes precision-recall vs threshold graph to explain trade-offs.
+![](https://i.ibb.co/GQv1nR0c/download-9.png)
 
 ---
 
-## 🚀 Deployment  
+## Technologies Used 
 
-App is deployed using **Streamlit**.  
-
-### ✨ Features:  
-- Input box for pasting email content  
-- Real-time prediction result: **Spam** or **Not Spam**  
-- Automatically clears the input box after showing results  
-- Fast and light frontend experience
-
-> ✅ Backend model uses optimized `VotingClassifier` pipeline with threshold filtering logic.
+- **Programming Language:** Python  
+- **NLP Tools:** `NLTK`, `re`
+- **Visualization:** `Matplotlib`, `Seaborn`, `Wordcloud`  
+- **Machine Learning:** `Scikit-learn`, `Xgboost`  
+- **Web Interface:** `Streamlit`  
+- **Deployment Platform:** `Render`
 
 ---
 
-## 🛠 Technologies Used  
-- Python  
-- Scikit-learn  
-- XGBoost  
-- NLTK  
-- Pandas, NumPy  
-- Matplotlib, Seaborn  
-- Streamlit  
-- Pickle  
+## Deployment
+
+The final model was deployed using **Streamlit** to create an intuitive web-based interface, and hosted on **Render** for public accessibility.
+
+[Email Spam Classifier Live App](https://email-spam-classifier-a61k.onrender.com)
+
+---
+
+## Key Takeaways
+
+
