@@ -25,12 +25,28 @@ Understanding this distribution is essential for evaluating real-world model per
 
 ![](https://i.ibb.co/N230NJ0t/download.png)
 
-### 🔸 WordClouds  
-> ☁️ Separate WordClouds for spam and ham to highlight commonly used terms.
+### WordClouds  
+> Word clouds were created separately for **spam** and **ham** emails to highlight the most frequently used terms in each category.
 
-### 🔸 Top 30 Most Common Words in Spam and Ham  
-> 📈 Bar plot using TF-IDF vectorized terms for both spam and ham messages.
+- **Spam emails** commonly include words such as:  
+  `canadianpharmacy`, `cialis`, `viagra`, `pill`, `discount`, `buy now`
 
+- **Ham emails** often feature terms like:  
+  `reproducible`, `commit`, `reply`, `patch`, `function`, `file`
+
+These visualizations provide a quick and intuitive understanding of the distinct vocabulary used in each type of email.
+
+![](https://i.ibb.co/fG2hHmCz/download-2.png)
+
+### Top 30 Most Common Words in Spam and Ham  
+> Separate bar plots were generated for **spam** and **ham** emails to showcase their most frequently used words. The results reveal distinct language patterns:
+
+- **Spam emails** are dominated by promotional, commercial, and medical terms.
+- **Ham emails** primarily include technical, informational, or casual language.
+
+These insights help illustrate the contrasting vocabulary used in each email type, which is valuable for feature engineering and model interpretation.
+
+![](https://i.ibb.co/q3gkT4Lc/download-3.png)          ![](https://i.ibb.co/bMZW7fqW/download-4.png)
 ---
 
 ## 🧹 Text Preprocessing  
