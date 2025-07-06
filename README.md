@@ -5,7 +5,7 @@ This project focuses on classifying emails as either spam or ham (non-spam) usin
 ---
 
 ## Objective  
-To build a reliable email spam classifier that accurately detects spam messages using machine learning and text preprocessing techniques, with a strong focus on high precision.
+To build a reliable email spam classifier that accurately detects spam emails using machine learning and text preprocessing techniques, with a strong focus on high precision.
 
 ---
 
