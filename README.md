@@ -50,40 +50,48 @@ These insights help illustrate the contrasting vocabulary used in each email typ
 ![](https://i.ibb.co/bMZW7fqW/download-4.png)
 ---
 
-## 🧹 Text Preprocessing  
+## Text Preprocessing  
 
 Steps performed:
 - Merged subject + body  
-- Converted to lowercase  
-- Removed punctuation & symbols  
-- Removed stopwords (NLTK)  
-- Tokenized text  
-- Lemmatized words using WordNet  
-- Vectorized using `TfidfVectorizer(max_features=3000, min_df=5)`
+- Lowercasing 
+- Removing punctuation and stopwords
+- Tokenization
+- Lemmatization (with NLTK)
+- TF-IDF vectorization`
 
 ---
 
-## 🧪 Model Training & Evaluation  
+## Model Training & Evaluation  
 
-> 📌 All models were evaluated using **accuracy, precision, and recall**.  
-> 📉 Visualizations include:
-- Confusion matrix grid (1x3) comparing:
-  - MultinomialNB
-  - BernoulliNB
-  - ComplementNB  
-- Bar plot comparing performance of:
-  - Logistic Regression  
-  - Random Forest  
-  - Extra Trees  
-  - SVC  
-  - XGBoost  
-  - BaggingClassifier  
+### Naive Bayes Models
+
+Three Naive Bayes variants were evaluated:
+
+- Multinomial NB  
+- Bernoulli NB  
+- Gaussian NB  
+
+Multinomial NB emerged as the most effective due to its compatibility with count-based text features.
+
+![](https://i.ibb.co/2783YSQj/Screenshot-2025-07-03-125133.png)
+
+### Baseline Models
+
+Multiple traditional models—including linear classifiers, tree-based algorithms, and boosting methods—were trained using TF-IDF features. Their performance was evaluated and visualized using bar plots, offering a clear benchmark.
+
+![](https://i.ibb.co/gMMmtFsv/download-5.png)
 
 ---
 
-## 🧠 Ensemble Methods: Voting Classifier  
+## Ensemble Methods
 
-Used a **soft voting** approach with six models:
+To achieve more robust results, ensemble techniques were adopted by combining diverse models and leveraging their collective strength.
+
+### Soft Voting Classifier
+
+This ensemble combined predictions from:
+
 - ExtraTreesClassifier  
 - RandomForestClassifier  
 - BaggingClassifier  
@@ -91,11 +99,7 @@ Used a **soft voting** approach with six models:
 - SVC (sigmoid kernel)  
 - Logistic Regression  
 
-Improvements added:
-- `class_weight={0:2, 1:1}` in most models  
-- `scale_pos_weight` in XGBoost  
-- Weighted ensemble: `[2, 2, 2, 1, 1, 1]`  
-- Wrapped in a full preprocessing + model `Pipeline`
+The final decision was made by averaging the predicted probabilities. This method improved generalization and precision, achieving ~98% accuracy.
 
 ---
 
