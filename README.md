@@ -14,7 +14,7 @@ The dataset, obtained from the [RiverML](https://riverml.xyz/0.19.0/api/datasets
 
 Understanding this distribution is essential for evaluating real-world model performance. Therefore, confusion matrices and precision-based metrics are prioritized to ensure reliable and effective spam detection.
 
-![](https://i.ibb.co/hxR16L6h/Screenshot-2025-07-02-204153.png)
+<img width="389" height="389" alt="image" src="https://github.com/user-attachments/assets/b974d259-40d3-4cc0-a7d1-124f51124f92" />
 
 ---
 
@@ -81,7 +81,7 @@ Multinomial NB emerged as the most effective due to its compatibility with count
 
 Multiple traditional models—including linear classifiers, tree-based algorithms, and boosting methods—were trained using TF-IDF features. Their performance was evaluated and visualized using bar plots, offering a clear benchmark.
 
-![](https://i.ibb.co/gMMmtFsv/download-5.png)
+<img width="1001" height="1099" alt="image" src="https://github.com/user-attachments/assets/10aee6b3-3fe1-4ea3-a2aa-3a95c482faa0" />
 
 ---
 
