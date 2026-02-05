@@ -21,12 +21,12 @@ Understanding this distribution is essential for evaluating **real-world model p
 ## Exploratory Data Analysis (EDA)
 
 ### Distribution of Characters, Words, and Sentences by Class  
-> Log-scaled distributions show us that spam emails tend to be shorter in terms of words, characters, and sentences by count, but with noticeable variance.
+> Log-scaled distributions show that **spam emails tend to be shorter** in terms of **words, characters, and sentences**, but with noticeable variance.
 
 ![](https://i.ibb.co/N230NJ0t/download.png)
 
 ### WordClouds  
-> Word clouds were created separately for **spam** and **ham** emails to highlight the most frequently used terms in each category.
+> Word clouds were created separately for **spam** and **ham** emails to highlight the **most frequently used terms** in each category.
 
 - **Spam emails** commonly include words such as:  
   `canadianpharmacy`, `cialis`, `viagra`, `pill`, `discount`, `buy now`
@@ -39,7 +39,7 @@ These visualizations provide a quick and intuitive understanding of the distinct
 ![](https://i.ibb.co/fG2hHmCz/download-2.png)
 
 ### Top 30 Most Common Words in Spam and Ham  
-> Separate bar plots were generated for **spam** and **ham** emails to showcase their most frequently used words. The results reveal distinct language patterns:
+> Separate bar plots were generated for **spam** and **ham** emails to showcase their **most frequently used words**. The results reveal distinct language patterns:
 
 - **Spam emails** are dominated by promotional, commercial, and medical terms.
 - **Ham emails** primarily include technical, informational, or casual language.
