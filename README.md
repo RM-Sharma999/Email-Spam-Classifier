@@ -53,7 +53,7 @@ These insights help illustrate the contrasting vocabulary used in each email typ
 
 ## Text Preprocessing  
 
-Steps performed:
+**Steps performed**:
 - Merged subject + body  
 - Lowercasing 
 - Removing punctuation and stopwords
