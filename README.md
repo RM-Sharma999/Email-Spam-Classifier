@@ -10,9 +10,9 @@ To build a **reliable email spam classifier** that **accurately detects spam ema
 ---
 
 ## Dataset Overview 
-The dataset, obtained from the [RiverML](https://riverml.xyz/0.19.0/api/datasets/TREC07/) repository, contains over 75,000 labeled emails classified as either ham or spam. Although there is a slight class imbalance—approximately 61% ham and 39% spam—the distribution remains well within acceptable limits.
+The dataset, obtained from the [RiverML](https://riverml.xyz/0.19.0/api/datasets/TREC07/) repository, contains **over 75,000 labeled emails** classified as either **ham or spam**. Although there is a slight class imbalance—approximately **61% ham and 39% spam**—the distribution remains **well within acceptable limits**.
 
-Understanding this distribution is essential for evaluating real-world model performance. Therefore, confusion matrices and precision-based metrics are prioritized to ensure reliable and effective spam detection.
+Understanding this distribution is essential for evaluating **real-world model performance**. Therefore, **confusion matrices and precision-based metrics** are prioritized to ensure **reliable and effective spam detection**.
 
 <img width="389" height="389" alt="image" src="https://github.com/user-attachments/assets/b974d259-40d3-4cc0-a7d1-124f51124f92" />
 
