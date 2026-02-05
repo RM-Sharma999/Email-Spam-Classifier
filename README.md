@@ -53,7 +53,7 @@ These insights help illustrate the contrasting vocabulary used in each email typ
 
 ## Text Preprocessing  
 
-**Steps performed**:
+**Steps performed:**
 - Merged subject + body  
 - Lowercasing 
 - Removing punctuation and stopwords
@@ -67,19 +67,19 @@ These insights help illustrate the contrasting vocabulary used in each email typ
 
 ### Naive Bayes Models
 
-Three Naive Bayes variants were evaluated:
+Three **Naive Bayes** variants were evaluated:
 
 - Multinomial NB  
 - Bernoulli NB  
 - Gaussian NB  
 
-Multinomial NB emerged as the most effective due to its compatibility with count-based text features.
+**Multinomial NB** emerged as the most effective due to its compatibility with **count-based text features**.
 
 ![](https://i.ibb.co/2783YSQj/Screenshot-2025-07-03-125133.png)
 
 ### Baseline Models
 
-Multiple traditional models—including linear classifiers, tree-based algorithms, and boosting methods—were trained using TF-IDF features. Their performance was evaluated and visualized using bar plots, offering a clear benchmark.
+Multiple traditional models—including **linear classifiers, tree-based algorithms, and boosting methods**—were trained using **TF-IDF features**. Their performance was evaluated and visualized using bar plots, offering a clear benchmark.
 
 <img width="1001" height="1099" alt="image" src="https://github.com/user-attachments/assets/10aee6b3-3fe1-4ea3-a2aa-3a95c482faa0" />
 
@@ -87,7 +87,7 @@ Multiple traditional models—including linear classifiers, tree-based algorithm
 
 ## Ensemble Methods
 
-To achieve more robust results, ensemble techniques were adopted by combining diverse models and leveraging their collective strength.
+To achieve more robust results, **ensemble techniques** were adopted by combining **diverse models** and leveraging their **collective strength**.
 
 ### Soft Voting Classifier
 
@@ -100,7 +100,7 @@ This ensemble combined predictions from:
 - SVC (sigmoid kernel)  
 - Logistic Regression  
 
-The final prediction was made by averaging the predicted probabilities across models, enhancing generalization and stability. This ensemble approach achieved approximately **99% accuracy**, **precision**, and **recall**, indicating highly reliable performance.
+The final prediction was made by **averaging the predicted probabilities** across models, enhancing generalization and stability. This ensemble approach achieved approximately **99% accuracy**, **precision**, and **recall**, indicating **highly reliable performance**.
 
 ![](https://i.ibb.co/FLhVHnQr/download-6.png)
 
@@ -108,7 +108,7 @@ The final prediction was made by averaging the predicted probabilities across mo
 
 ## Threshold Tuning (Precision Focused)  
 
-By fine-tuning the probability threshold, the **voting classifier** was optimized to reduce false positives while maintaining strong recall. This trade-off is essential in spam detection, where incorrectly classifying legitimate (ham) emails as spam must be avoided.
+By fine-tuning the **probability threshold**, the **voting classifier** was optimized to **reduce false positives** while maintaining **strong recall**. This trade-off is essential in spam detection, where incorrectly classifying legitimate (ham) emails as spam must be avoided.
 
 ![](https://i.ibb.co/GQv1nR0c/download-9.png)
 
