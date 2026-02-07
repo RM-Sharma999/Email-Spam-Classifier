@@ -28,15 +28,13 @@ Understanding this distribution is essential for evaluating **real-world model p
 ### WordClouds  
 > Word clouds highlight the **most frequently used terms** in **spam** and **ham** emails.
 
+![](https://i.ibb.co/fG2hHmCz/download-2.png)
+
 - **Spam emails** commonly include words such as:  
   `canadianpharmacy`, `cialis`, `viagra`, `pill`, `discount`, `buy now`
 
 - **Ham emails** often feature terms like:  
   `reproducible`, `commit`, `reply`, `patch`, `function`, `file`
-
-These visualizations provide a quick and intuitive understanding of the distinct vocabulary used in each type of email.
-
-![](https://i.ibb.co/fG2hHmCz/download-2.png)
 
 ### Top 30 Most Common Words in Spam and Ham  
 > Separate bar plots were generated for **spam** and **ham** emails to showcase their **most frequently used words**. The results reveal distinct language patterns:
