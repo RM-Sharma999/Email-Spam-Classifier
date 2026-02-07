@@ -127,7 +127,7 @@ By fine-tuning the **probability threshold**, the **voting classifier** was opti
 
 ## Deployment
 
-The final model was deployed using **Streamlit** to create an intuitive web-based interface, and hosted on **Render** for public accessibility.
+The final model was deployed using **Streamlit** to create an **intuitive web-based interface**, and hosted on **Render** for public accessibility.
 
 [Email Spam Classifier Live App](https://email-spam-classifier-a61k.onrender.com)
 
