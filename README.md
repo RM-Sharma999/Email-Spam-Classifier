@@ -33,7 +33,7 @@ Understanding this distribution is essential for evaluating **real-world model p
 - **Spam emails** commonly include words such as:  
   `canadianpharmacy`, `cialis`, `viagra`, `pill`, `discount`, and `buy now`
 
-- **Ham emails** often feature terms like:  
+- **Ham emails** often feature terms such as:  
   `reproducible`, `commit`, `reply`, `patch`, `function`, and `file`
 
 ### Top 30 Most Common Words in Spam and Ham  
