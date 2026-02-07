@@ -37,15 +37,16 @@ Understanding this distribution is essential for evaluating **real-world model p
   `reproducible`, `commit`, `reply`, `patch`, `function`, and `file`
 
 ### Top 30 Most Common Words in Spam and Ham  
-> Separate bar plots were generated for **spam** and **ham** emails to showcase their **most frequently used words**. The results reveal distinct language patterns:
+> Separate bar plots were generated for **spam** and **ham** emails to showcase their **most frequently used words**.
 
+![](https://i.ibb.co/q3gkT4Lc/download-3.png)
+![](https://i.ibb.co/bMZW7fqW/download-4.png)
+
+**The results reveal distinct language patterns:**
 - **Spam emails** are dominated by promotional, commercial, and medical terms.
 - **Ham emails** primarily include technical, informational, or casual language.
 
 These insights help illustrate the contrasting vocabulary used in each email type, which is valuable for feature engineering and model interpretation.
-
-![](https://i.ibb.co/q3gkT4Lc/download-3.png)
-![](https://i.ibb.co/bMZW7fqW/download-4.png)
 
 ---
 
