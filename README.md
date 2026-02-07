@@ -26,7 +26,7 @@ Understanding this distribution is essential for evaluating **real-world model p
 ![](https://i.ibb.co/N230NJ0t/download.png)
 
 ### WordClouds  
-> Word clouds were created separately for **spam** and **ham** emails to highlight the **most frequently used terms** in each category.
+> Word clouds highlight the **most frequently used terms** in **spam** and **ham** emails.
 
 - **Spam emails** commonly include words such as:  
   `canadianpharmacy`, `cialis`, `viagra`, `pill`, `discount`, `buy now`
