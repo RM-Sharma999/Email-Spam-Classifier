@@ -20,6 +20,8 @@ Understanding this distribution is essential for evaluating **real-world model p
 
 ## Exploratory Data Analysis (EDA)
 
+**Exploratory Data Analysis (EDA)** was conducted to uncover **meaningful patterns**, understand data trends, and support **feature engineering** using **descriptive statistics** and **visualizations**.
+
 ### Distribution of Characters, Words, and Sentences by Class  
 > Log-scaled distributions show that **spam emails tend to be shorter** in terms of **words, characters, and sentences**, but with noticeable variance.
 
